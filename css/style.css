@@ -70,6 +70,12 @@ body {
 .product-price{
   font-size: 2rem;
 }
+.product-count{
+  color: orange;
+}
+.product-rating{
+  color: orange;
+}
 .add-cart-btn{
   width: 100%;
   background-color: black;
