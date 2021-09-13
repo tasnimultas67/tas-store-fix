@@ -20,6 +20,7 @@
 <body>
   <header></header>
   <main class="main">
+    <!-- == Search Field Here ==== -->
     <div class="search-field">
       <div class="search-box text-center">
         <input id="input-field" class="search-field-input" type="text" />
@@ -29,6 +30,7 @@
         </button>
       </div>
     </div>
+    <!-- === Products Here === -->
     <div class="row ">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
@@ -38,6 +40,8 @@
         <div class="cart" id="my-cart">
           <table class="table">
             <thead>
+
+              <!-- ==== Cart Box Here ===== -->
               <h1>My-Cart</h1>
               <tr>
                 <th scope="col"></th>
@@ -47,30 +51,35 @@
               </tr>
             </thead>
             <tbody>
+              <!-- ==== Total Added Products Here === -->
               <tr>
                 <th>Total Added-Products:</th>
                 <td id="total-Products">0</td>
                 <td></td>
                 <td></td>
               </tr>
+              <!-- == Price ==== -->
               <tr>
                 <th>Price:</th>
                 <td>$ <span id="price">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
+              <!-- ==== Delivery Charge Here === -->
               <tr>
                 <th>Delivery-Charge:</th>
                 <td>$ <span id="delivery-charge">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
+              <!-- ==== Total Tax Here === -->
               <tr>
                 <th>Total-Tax:</th>
                 <td>$ <span id="total-tax">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
+              <!-- ===== Total Here -->
               <tr>
                 <th scope="row">Total</th>
                 <td colspan="2">$ <span id="total">0</span></td>
@@ -78,6 +87,7 @@
               </tr>
             </tbody>
           </table>
+          <!-- ==== Cart Buy Button Here ==== -->
           <div class="parces text-center">
             <button class="text-center buy-btn">Buy Now</button>
           </div>
