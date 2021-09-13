@@ -47,7 +47,7 @@ body {
   transition: 0.6s;
   background-color: #F2F4F4;
   margin: 10px;
-
+  height: 485px;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
